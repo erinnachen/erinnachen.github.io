@@ -109,6 +109,32 @@ ul.posts li {
   font-family:'Lato', sans-serif;
   color: #333;
 }
+
+.post_title {
+  font-size: 2.3em;
+  line-height: 1.4em;
+  font-family:'Lora', serif;
+  text-align: center;
+  font-weight: 700;
+}
+.subheaders{
+  font-size: 1.7em;
+  font-family:'Lora', serif;
+  color: #009900;
+  font-weight: 700;
+}
+.posting {
+  margin: 60px auto;
+  width: 60%;
+  color: #999;
+}
+.posting p {
+  color: black;
+  text-align: justify;
+  font-size: 1.25em;
+}
+
+
 /*.circular {
 	width: 300px;
 	height: 300px;
