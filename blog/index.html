@@ -1,0 +1,10 @@
+---
+layout: default
+title: The Posts
+---
+
+	<ul class="posts post-listings">
+	  {% for post in site.posts %}
+	    <li>{{ post.date | date: '%B %d, %Y' }} &middot; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
