@@ -150,6 +150,13 @@ p.date {
   width: 40%;
 }
 
+.image {
+  border: 2px solid black;
+  text-align:center;
+  margin: 20px auto;
+  width: 100%;
+}
+
 /*.circular {
 	width: 300px;
 	height: 300px;
