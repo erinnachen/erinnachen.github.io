@@ -2,6 +2,7 @@
 title: Converting an erb view into haml
 layout: post
 date: 2016-02-15
+published: true
 ---
 ## Writers Block
 Let's be honest, I dislike writing. This was something that I hated as a scientist, really couldn't get over, and I recognized it was an integral part of my future career success. Ironically, now I'm pushing myself to write. I start with this because I made it a module goal to write one blog post every week for six weeks and we are starting week 3 and I have yet to push a full post out. I have started and stopped, written and deleted and re-written, and just not finished. I  have mused on different topics and realized that what I wanted to be a single blog post could easily be ten posts, and I didn't know how to split that up. So the result has been nothingness and today is course correction time.

@@ -1,9 +1,13 @@
 {% include header.html %}
 
 <div class="posting">
-<h2 class="post_title">{{ page.title }}</h2>
-<p class = "date">{{ page.date | date: '%B %d, %Y' }}</p>
-  {{ content }}
-</div>
+  <h2 class="post_title">{{ page.title }}</h2>
+  <p class = "date">{{ page.date | date: '%B %d, %Y' }}</p>
+    {{ content }}
 
+  <div class= "post_comments">
+	  {% include disqus.html %}
+	</div>
+</div>
+<script id="dsq-count-scr" src="//erinnachen.disqus.com/count.js" async></script>
 {% include footer.html %}
