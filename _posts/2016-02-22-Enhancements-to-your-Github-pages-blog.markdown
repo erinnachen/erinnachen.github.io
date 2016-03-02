@@ -18,10 +18,9 @@ I chose the universal code option and there are two basic steps, and two additio
 
 Step 2 which is recommended, was a bit wonky to figure out. There are two lines in the universal code which say: `Replace PAGE_URL with your page's canonical URL variable` and `Replace PAGE_IDENTIFIER with your page's unique identifier variable`. These are supposed to be dynamic, and I'm not super familiar with extracting those variables in a Jekyll-served page. I stumbled upon something, so maybe it'll work:
 {% raw %}
-this.page.url = "erinnachen.github.io{{ page.url }}";
-
 this.page.identifier = "{{ page.title }}";
 {% endraw %}
+I have not quite figured out PAGE_URL, but an update will come.
 
 ## Enhancement 2: analytics so I can figure out if I'm writing to myself
 Clearly I'm not trying to make money off this blog, but it would be nice to know if anyone was stalking me, or just what traffic looked like. There are other data analytics pages out there, but until my blog takes off I am going to use Google analytics for now. I began by signing up for a [Google analytics account](https://www.google.com/analytics/).
