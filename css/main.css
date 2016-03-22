@@ -79,7 +79,7 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
 .img-circle {
   width: 200px;
@@ -143,6 +143,13 @@ p.date {
   text-align: center;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.posting li {
+  font-family:'Lato', sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 1.25em;
 }
 
 .post-listings {
