@@ -37,7 +37,7 @@ h2 {
   color: #009900;
 }
 
-h3 {
+h3.copyright {
   font-size: 1.25em;
   font-family:'Lora', serif;
   font-weight: 400;
@@ -119,7 +119,7 @@ ul.posts li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.subheaders{
+h3 {
   font-size: 1.7em;
   font-family:'Lora', serif;
   color: #009900;
